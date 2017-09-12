@@ -55,6 +55,16 @@ public class RecursionExamples {
         System.out.println("1th : " + bound2);
         int norm = test.fibLoop(16);
         System.out.println("5th : " + norm);
+        System.out.println("--------");
+        
+        
+        int boundR1 = test.fibR(0);
+        System.out.println("0th:" + boundR1);
+        int boundR2 = test.fibR(1);
+        System.out.println("1th:" + boundR2);
+        int normR = test.fibR(6);
+        System.out.println("6th; " + normR);
+        
         
     }
 }
