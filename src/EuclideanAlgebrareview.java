@@ -24,11 +24,11 @@ public class EuclideanAlgebrareview {
         } else {
             
             //find the values for a and b
-            int q = a/b;
+            //int q = a/b;
             int r = a%b;
             
             //calculate new GCD
-            return gcd(q,r);
+            return gcd(b,r);
         }
         
     }
